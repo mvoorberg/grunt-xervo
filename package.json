@@ -1,7 +1,7 @@
 {
-  "name": "@binaryops/grunt-xervo",
+  "name": "grunt-xervo",
   "description": "Allows deployment to xervo.io from Grunt.",
-  "version": "0.1.0",
+  "version": "0.1.0-beta",
   "repository": {
     "type": "git",
     "url": "git://github.com/4umfreak/grunt-xervo.git"
@@ -10,7 +10,7 @@
     "url": "https://github.com/4umfreak/grunt-xervo/issues/new"
   },
   "license": "MIT",
-  "main": "./app.js",
+  "main": "Gruntfile.js",
   "engines": {
     "node": ">= 0.10.0"
   },
