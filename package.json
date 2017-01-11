@@ -1,25 +1,41 @@
 {
-	"name": "@binaryops/grunt-xervo",
-	"description": "Allows deployment to xervo.io from Grunt.",
-	"version": "0.1.0",
-	"repository": {
-		"private": true
-	},
-	"license": "MIT",
-	"main": "./app.js",
-	"engines": {
-		"node": ">= 0.10.0"
-	},
-	"devDependencies": {
-		"grunt-contrib-clean": "~0.6.0",
-		"grunt-contrib-compress": "~0.13.0",
-		"grunt-contrib-copy": "~0.4.0",
-		"grunt-contrib-jshint": "~0.6.0"
-	},
-	"dependencies": {
-		"@xervo/cli": "~7.0.0"
-	},
-	"peerDependencies": {
-		"grunt": "~0.4.5"
-	}
+  "name": "@binaryops/grunt-xervo",
+  "description": "Allows deployment to xervo.io from Grunt.",
+  "version": "0.1.0",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/4umfreak/grunt-xervo.git"
+  },
+  "bugs": {
+    "url": "https://github.com/4umfreak/grunt-xervo/issues/new"
+  },
+  "license": "MIT",
+  "main": "./app.js",
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "devDependencies": {
+    "grunt-contrib-clean": "~0.6.0",
+    "grunt-contrib-compress": "~0.13.0",
+    "grunt-contrib-copy": "~0.4.0",
+    "grunt-contrib-jshint": "~0.6.0"
+  },
+  "dependencies": {
+    "@xervo/cli": "~7.0.0"
+  },
+  "peerDependencies": {
+    "grunt": "~0.4.5"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "xervo",
+	"xervoio",
+	"modulus",
+	"modulusio",
+	"grunt",
+	"deploy"
+  ],
+  "author": "mark@binaryops.ca"
 }
